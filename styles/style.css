@@ -112,6 +112,12 @@ body {
   padding: 0 15px;
 }
 
+.container-form{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+  }
+
 #portfolio,
 #a,
 #clients {
@@ -188,6 +194,7 @@ footer {
     background: var(--Color-boton, linear-gradient(90deg, #ffff00 0%, #ffa500 100%));
     padding: 14px 0;
     text-align: center;
+    margin-top: 20px;
 }
 
 footer img {
