@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #eeeeee;
+  color: #333;
+  height: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar {
+  background: linear-gradient(to left, #ffa500, #ffff00);
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.contenido {
+  align-items: center;
+  padding: 14px;
+  background-color: #fff;
+}
+
+.quienes-somos,
+.que-ofrecemos {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.quienes-somos .imagen,
+.que-ofrecemos .imagen {
+  width: 50%;
+}
+
+.quienes-somos .imagen img,
+.que-ofrecemos .imagen img {
+  width: 400px;
+  height: 300px;
+}
+
+.quienes-somos .texto,
+.que-ofrecemos .texto {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.quienes-somos {
+  float: left;
+}
+
+.que-ofrecemos {
+  float: right;
+}
+
+.card-dev {
+  min-height: 290px;
+}
+
+.card-clients {
+  min-height: 200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#portfolio,
+#a,
+#clients {
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1em;
+}
+
+.card-img-dev {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-dev {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.accordion-button {
+  background: linear-gradient(to left, #ffa500, #ffff00);
+  color: #fff;
+}
+
+.accordion-button:hover {
+  background: linear-gradient(to left, #ffa500, #ffff00);
+}
+
+.accordion-button.collapsed {
+  background: linear-gradient(to left, #ffa500, #ffff00);
+}
+
+.accordion-button:focus {
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+}
+
+footer {
+    background: var(--Color-boton, linear-gradient(90deg, #ffff00 0%, #ffa500 100%));
+    padding: 14px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 150px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+.styled-image {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.styled-image:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
